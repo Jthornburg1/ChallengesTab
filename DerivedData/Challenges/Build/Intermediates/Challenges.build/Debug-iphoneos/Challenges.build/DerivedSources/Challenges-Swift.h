@@ -118,6 +118,7 @@ SWIFT_CLASS("_TtC10Challenges14ViewController")
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified label;
 - (void)viewDidLoad;
 - (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
+- (IBAction)clearButtonTapped:(id __nonnull)sender;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

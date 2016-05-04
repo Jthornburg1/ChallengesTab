@@ -38,6 +38,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         return true
     }
+    @IBAction func clearButtonTapped(sender: AnyObject) {
+        self.textfield.text = ""
+        self.label.text = ""
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

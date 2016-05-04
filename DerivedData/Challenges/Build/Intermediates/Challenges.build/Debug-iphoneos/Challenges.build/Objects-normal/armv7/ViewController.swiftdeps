@@ -6,30 +6,34 @@ provides-nominal:
 provides-member:
 - ["C10Challenges14ViewController", ""]
 provides-dynamic-lookup:
-- "textfield"
-- "textFieldShouldReturn"
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
 - "label"
+- "didReceiveMemoryWarning"
+- "textFieldShouldReturn"
+- "textfield"
+- "clearButtonTapped"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
-- !private "Int"
-- "UITextFieldDelegate"
 - "Bool"
-- "Graph"
-- !private "BooleanLiteralType"
-- "UITextField"
 - !private "+="
-- !private "Array"
 - "ViewController"
 - "UILabel"
-- !private "print"
 - !private "String"
+- !private "BooleanLiteralType"
+- "Graph"
+- "UIViewController"
+- "UITextFieldDelegate"
+- "AnyObject"
+- !private "Int"
+- !private "StringLiteralType"
+- "UITextField"
+- !private "print"
+- !private "Array"
 depends-member:
 - ["PSs9AnyObject", "Graph"]
 - !private ["PSs9AnyObject", "Int"]
 - !private ["PSs9AnyObject", "String"]
 - !private ["PSs9AnyObject", "characters"]
+- ["PSs9AnyObject", "clearButtonTapped"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "graph"]
 - ["PSs9AnyObject", "init"]
@@ -76,6 +80,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "String"]
 - !private ["PSs11CVarArgType", "characters"]
+- ["PSs11CVarArgType", "clearButtonTapped"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "graph"]
 - ["PSs11CVarArgType", "init"]
@@ -129,6 +134,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "_Buffer"]
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "characters"]
+- ["PSs23CustomStringConvertible", "clearButtonTapped"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "graph"]
 - ["PSs23CustomStringConvertible", "init"]
@@ -152,6 +158,7 @@ depends-member:
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "String"]
 - !private ["PSs9Equatable", "characters"]
+- ["PSs9Equatable", "clearButtonTapped"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "graph"]
 - ["PSs9Equatable", "init"]
@@ -183,6 +190,7 @@ depends-member:
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "String"]
 - !private ["PSs8Hashable", "characters"]
+- ["PSs8Hashable", "clearButtonTapped"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "graph"]
 - ["PSs8Hashable", "init"]
@@ -250,6 +258,7 @@ depends-member:
 - !private ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "characters"]
+- ["PSo8NSCoding", "clearButtonTapped"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "graph"]
 - ["PSo8NSCoding", "init"]
@@ -271,6 +280,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "Graph"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
+- ["PSo26NSExtensionRequestHandling", "clearButtonTapped"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "graph"]
 - ["PSo26NSExtensionRequestHandling", "init"]
@@ -287,6 +297,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "characters"]
+- ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "Graph"]
 - !private ["CSo8NSObject", "Int"]
@@ -294,6 +305,7 @@ depends-member:
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UITextField"]
 - !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "clearButtonTapped"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "graph"]
 - ["CSo8NSObject", "init"]
@@ -314,6 +326,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "clearButtonTapped"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "graph"]
 - ["PSo16NSObjectProtocol", "init"]
@@ -335,6 +348,7 @@ depends-member:
 - !private ["CSo8NSString", "characters"]
 - ["PSs21NilLiteralConvertible", "Some"]
 - ["Sq", "Some"]
+- !private ["Sq", "deinit"]
 - !private ["PSs16OutputStreamType", "characters"]
 - !private ["PSs16OutputStreamType", "init"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
@@ -378,6 +392,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "Graph"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "clearButtonTapped"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "graph"]
 - ["PSo21UIAppearanceContainer", "init"]
@@ -398,6 +413,7 @@ depends-member:
 - ["PSo18UIContentContainer", "Graph"]
 - !private ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "String"]
+- ["PSo18UIContentContainer", "clearButtonTapped"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "graph"]
 - ["PSo18UIContentContainer", "init"]
@@ -422,6 +438,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "Graph"]
 - !private ["PSo18UIFocusEnvironment", "Int"]
 - !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "clearButtonTapped"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "graph"]
 - ["PSo18UIFocusEnvironment", "init"]
@@ -442,12 +459,14 @@ depends-member:
 - !private ["PSo10UIKeyInput", "resignFirstResponder"]
 - !private ["PSo10UIKeyInput", "text"]
 - !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "Graph"]
 - !private ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "clearButtonTapped"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "graph"]
 - ["CSo11UIResponder", "init"]
@@ -467,6 +486,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "Graph"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "String"]
+- ["PSo16UIStateRestoring", "clearButtonTapped"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "graph"]
 - ["PSo16UIStateRestoring", "init"]
@@ -497,6 +517,7 @@ depends-member:
 - ["PSo19UITextFieldDelegate", "textFieldShouldClear"]
 - ["PSo19UITextFieldDelegate", "textFieldShouldEndEditing"]
 - ["PSo19UITextFieldDelegate", "textFieldShouldReturn"]
+- !private ["PSo19UITextFieldDelegate", "textfield"]
 - ["PSo19UITextFieldDelegate", ""]
 - !private ["PSo11UITextInput", "resignFirstResponder"]
 - !private ["PSo11UITextInput", "text"]
@@ -505,6 +526,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "Graph"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "clearButtonTapped"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "graph"]
 - ["PSo18UITraitEnvironment", "init"]
@@ -524,12 +546,14 @@ depends-member:
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "resignFirstResponder"]
 - !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "Graph"]
 - !private ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "clearButtonTapped"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "graph"]
 - ["CSo16UIViewController", "init"]
@@ -547,12 +571,14 @@ depends-member:
 - ["CSo16UIViewController", ""]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "characters"]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C10Challenges14ViewController", "AnyObject"]
 - ["C10Challenges14ViewController", "Bool"]
 - ["C10Challenges14ViewController", "Graph"]
 - !private ["C10Challenges14ViewController", "Int"]
 - !private ["C10Challenges14ViewController", "String"]
 - ["C10Challenges14ViewController", "UILabel"]
 - ["C10Challenges14ViewController", "UITextField"]
+- ["C10Challenges14ViewController", "clearButtonTapped"]
 - ["C10Challenges14ViewController", "deinit"]
 - ["C10Challenges14ViewController", "didReceiveMemoryWarning"]
 - ["C10Challenges14ViewController", "graph"]
@@ -733,4 +759,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
-interface-hash: "b22527bc9a5bff1a3858b94435aabae2"
+interface-hash: "4fac9b001a98d7a54fcd32891bc8fcac"

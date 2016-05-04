@@ -40,6 +40,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lC-T9-Vgd">
+                                <rect key="frame" x="143" y="51" width="34" height="30"/>
+                                <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="clearButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kst-26-8Oy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -49,6 +56,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="fXd-4P-aQu" secondAttribute="trailing" constant="-20" id="R5S-74-HZd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fXd-4P-aQu" secondAttribute="trailing" constant="-20" id="W66-0w-dXq"/>
                             <constraint firstItem="fXd-4P-aQu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="92" id="XK8-yv-xxA"/>
+                            <constraint firstItem="6lC-T9-Vgd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="fNs-y9-gCi"/>
+                            <constraint firstItem="6lC-T9-Vgd" firstAttribute="centerX" secondItem="fXd-4P-aQu" secondAttribute="centerX" id="hBa-xA-TUZ"/>
                             <constraint firstItem="336-FQ-wJt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="49" id="rNm-WX-jjS"/>
                         </constraints>
                     </view>
