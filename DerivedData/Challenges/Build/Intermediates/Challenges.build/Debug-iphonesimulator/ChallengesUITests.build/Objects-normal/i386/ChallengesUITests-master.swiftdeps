@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "73d594a3e4edbdff7f002364ca01b433"
+build_time: [515702066, 18023000]
+inputs:
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/ChallengesUITests/ChallengesUITests.swift": [515628448, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "3ff8dc9de9e1651af6204d1a8d0c4790"
+build_time: [515704912, 420921000]
+inputs:
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/ChallengesTests/GraphTests.swift": [515700123, 0]
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/ChallengesTests/GraphBrainTests.swift": [515704911, 0]

@@ -1,0 +1,65 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Graph"
+provides-nominal:
+- "V10Challenges5Graph"
+provides-member:
+- ["V10Challenges5Graph", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- !private "FloatLiteralType"
+- !private ">"
+- "GraphBrain"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- !private "--"
+- "Graph"
+- "Int"
+- !private "+="
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["V10Challenges5Graph", "GraphBrain"]
+- ["V10Challenges5Graph", "Int"]
+- ["V10Challenges5Graph", "String"]
+- ["V10Challenges5Graph", "graphBrain"]
+- ["V10Challenges5Graph", "graphFromArray"]
+- ["V10Challenges5Graph", "init"]
+- !private ["V10Challenges10GraphBrain", "arrayToDictionary"]
+- !private ["V10Challenges10GraphBrain", "getMaxValue"]
+- ["V10Challenges10GraphBrain", "init"]
+- !private ["V10Challenges10GraphBrain", "printStarsAndSpaces"]
+- !private ["V10Challenges10GraphBrain", "splitDict"]
+- !private ["V10Challenges10GraphBrain", "stringOfNumbers"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- "V10Challenges5Graph"
+- "V10Challenges10GraphBrain"
+- !private "PSs8Hashable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "06ea8515d7bba616877912328dc1982c"

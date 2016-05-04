@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GraphBrainTests"
+provides-nominal:
+- "C15ChallengesTests15GraphBrainTests"
+provides-member:
+- ["C15ChallengesTests15GraphBrainTests", ""]
+provides-dynamic-lookup:
+- "testIfArrayToDictionaryReturnsDictionary"
+- "testIfPrintStarsAndSpacesWorks"
+- "testIfSplitDictSplitsDict"
+- "testIfgetMaxValueGetsMaxValue"
+- "tearDown"
+- "testIfStringOfNumbersPrintsNumbers"
+- "setUp"
+depends-top-level:
+- "GraphBrainTests"
+- !private "StringLiteralType"
+- !private "Array"
+- "GraphBrain"
+- "XCTestCase"
+- !private "XCTAssertEqual"
+- !private "Dictionary"
+- !private "Int"
+depends-member:
+- ["PSs9AnyObject", "GraphBrain"]
+- !private ["PSs9AnyObject", "XCTAssertEqual"]
+- ["PSs9AnyObject", "graphBrain"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "setUp"]
+- ["PSs9AnyObject", "tearDown"]
+- ["PSs9AnyObject", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSs9AnyObject", "testIfPrintStarsAndSpacesWorks"]
+- ["PSs9AnyObject", "testIfSplitDictSplitsDict"]
+- ["PSs9AnyObject", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSs9AnyObject", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "deinit"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSs11CVarArgType", "GraphBrain"]
+- !private ["PSs11CVarArgType", "XCTAssertEqual"]
+- ["PSs11CVarArgType", "graphBrain"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "setUp"]
+- ["PSs11CVarArgType", "tearDown"]
+- ["PSs11CVarArgType", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSs11CVarArgType", "testIfPrintStarsAndSpacesWorks"]
+- ["PSs11CVarArgType", "testIfSplitDictSplitsDict"]
+- ["PSs11CVarArgType", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSs11CVarArgType", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- ["PSs23CustomStringConvertible", "GraphBrain"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "XCTAssertEqual"]
+- ["PSs23CustomStringConvertible", "graphBrain"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "setUp"]
+- ["PSs23CustomStringConvertible", "tearDown"]
+- ["PSs23CustomStringConvertible", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSs23CustomStringConvertible", "testIfPrintStarsAndSpacesWorks"]
+- ["PSs23CustomStringConvertible", "testIfSplitDictSplitsDict"]
+- ["PSs23CustomStringConvertible", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSs23CustomStringConvertible", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- ["PSs9Equatable", "GraphBrain"]
+- !private ["PSs9Equatable", "XCTAssertEqual"]
+- ["PSs9Equatable", "graphBrain"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "setUp"]
+- ["PSs9Equatable", "tearDown"]
+- ["PSs9Equatable", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSs9Equatable", "testIfPrintStarsAndSpacesWorks"]
+- ["PSs9Equatable", "testIfSplitDictSplitsDict"]
+- ["PSs9Equatable", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSs9Equatable", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs9Equatable", ""]
+- !private ["V10Challenges10GraphBrain", "arrayToDictionary"]
+- !private ["V10Challenges10GraphBrain", "getMaxValue"]
+- ["V10Challenges10GraphBrain", "init"]
+- !private ["V10Challenges10GraphBrain", "printStarsAndSpaces"]
+- !private ["V10Challenges10GraphBrain", "splitDict"]
+- !private ["V10Challenges10GraphBrain", "stringOfNumbers"]
+- ["C15ChallengesTests15GraphBrainTests", "GraphBrain"]
+- !private ["C15ChallengesTests15GraphBrainTests", "Int"]
+- !private ["C15ChallengesTests15GraphBrainTests", "XCTAssertEqual"]
+- ["C15ChallengesTests15GraphBrainTests", "deinit"]
+- ["C15ChallengesTests15GraphBrainTests", "graphBrain"]
+- ["C15ChallengesTests15GraphBrainTests", "init"]
+- ["C15ChallengesTests15GraphBrainTests", "setUp"]
+- ["C15ChallengesTests15GraphBrainTests", "tearDown"]
+- ["C15ChallengesTests15GraphBrainTests", "testIfArrayToDictionaryReturnsDictionary"]
+- ["C15ChallengesTests15GraphBrainTests", "testIfPrintStarsAndSpacesWorks"]
+- ["C15ChallengesTests15GraphBrainTests", "testIfSplitDictSplitsDict"]
+- ["C15ChallengesTests15GraphBrainTests", "testIfStringOfNumbersPrintsNumbers"]
+- ["C15ChallengesTests15GraphBrainTests", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs8Hashable", "GraphBrain"]
+- !private ["PSs8Hashable", "XCTAssertEqual"]
+- ["PSs8Hashable", "graphBrain"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "setUp"]
+- ["PSs8Hashable", "tearDown"]
+- ["PSs8Hashable", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSs8Hashable", "testIfPrintStarsAndSpacesWorks"]
+- ["PSs8Hashable", "testIfSplitDictSplitsDict"]
+- ["PSs8Hashable", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSs8Hashable", "testIfgetMaxValueGetsMaxValue"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- ["CSo8NSObject", "GraphBrain"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- ["CSo8NSObject", "graphBrain"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testIfArrayToDictionaryReturnsDictionary"]
+- ["CSo8NSObject", "testIfPrintStarsAndSpacesWorks"]
+- ["CSo8NSObject", "testIfSplitDictSplitsDict"]
+- ["CSo8NSObject", "testIfStringOfNumbersPrintsNumbers"]
+- ["CSo8NSObject", "testIfgetMaxValueGetsMaxValue"]
+- ["PSo16NSObjectProtocol", "GraphBrain"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- ["PSo16NSObjectProtocol", "graphBrain"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "setUp"]
+- ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", "testIfArrayToDictionaryReturnsDictionary"]
+- ["PSo16NSObjectProtocol", "testIfPrintStarsAndSpacesWorks"]
+- ["PSo16NSObjectProtocol", "testIfSplitDictSplitsDict"]
+- ["PSo16NSObjectProtocol", "testIfStringOfNumbersPrintsNumbers"]
+- ["PSo16NSObjectProtocol", "testIfgetMaxValueGetsMaxValue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- ["CSo6XCTest", "GraphBrain"]
+- !private ["CSo6XCTest", "Int"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- ["CSo6XCTest", "graphBrain"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testIfArrayToDictionaryReturnsDictionary"]
+- ["CSo6XCTest", "testIfPrintStarsAndSpacesWorks"]
+- ["CSo6XCTest", "testIfSplitDictSplitsDict"]
+- ["CSo6XCTest", "testIfStringOfNumbersPrintsNumbers"]
+- ["CSo6XCTest", "testIfgetMaxValueGetsMaxValue"]
+- ["CSo10XCTestCase", "GraphBrain"]
+- !private ["CSo10XCTestCase", "Int"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- ["CSo10XCTestCase", "graphBrain"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testIfArrayToDictionaryReturnsDictionary"]
+- ["CSo10XCTestCase", "testIfPrintStarsAndSpacesWorks"]
+- ["CSo10XCTestCase", "testIfSplitDictSplitsDict"]
+- ["CSo10XCTestCase", "testIfStringOfNumbersPrintsNumbers"]
+- ["CSo10XCTestCase", "testIfgetMaxValueGetsMaxValue"]
+- ["CSo10XCTestCase", ""]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- "V10Challenges10GraphBrain"
+- "C15ChallengesTests15GraphBrainTests"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jon_thornburg/Desktop/src/ios/Challenges/DerivedData/Challenges/Build/Products/Debug-iphonesimulator/Challenges.swiftmodule/i386.swiftmodule"
+interface-hash: "28752c85f50b4d6d51ce2152372eb0d6"

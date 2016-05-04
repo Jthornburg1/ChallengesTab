@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "6c717147f4001492ba893442ecd5f2d6"
+build_time: [515705362, 156537000]
+inputs:
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/Challenges/Graph.swift": [515705103, 0]
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/Challenges/AppDelegate.swift": [515628447, 0]
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/Challenges/ViewController.swift": [515705362, 0]
+  "/Users/jon_thornburg/Desktop/src/ios/Challenges/Challenges/GraphBrain.swift": [515704911, 0]
